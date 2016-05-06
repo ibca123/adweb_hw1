@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+  <title>Black Board</title>
+
+  <script type="text/javascript" src="/js/bundle.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  
+</head>
+
+<body ng-controller="myController">
+  <textarea type="text" ng-change="onChange()" ng-model="content"></textarea>
+
+  <div>{{content}}</div>
+</body>
+</html>
